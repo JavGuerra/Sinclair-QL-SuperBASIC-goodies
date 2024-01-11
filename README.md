@@ -11,7 +11,7 @@ SuperBASIC conecta cada función o procedimiento que creamos al sistema, por lo 
 Puedes participar aportando tus propias funciones y procedimientos a este repositorio. Para ello debes seguir estas indicaciones:
 
 - Asegúrate de que no existe ya una función o procedimiento como el tuyo en este repositorio.
-- Crea un fichero .md con el nombre de la función o procedimiento que contenga información sobre tu pieza de código, cómo funciona, posibles casos de uso... y el propio código. debes indicar la autoría tanto en el .md como en el código. Pon un enlace para la descarga del código de la carpeta code.
+- Crea un fichero .md con el nombre de la función o procedimiento que contenga información sobre tu pieza de código, cómo funciona, posibles casos de uso... y el propio código. Debes indicar la autoría tanto en el .md como en el código. Pon un enlace para la descarga del código de la carpeta code. Usa la plantilla [plantilla.md](plantilla.md) para ayudarte en la redacción del documento.
 - Crea un fichero en SuperBASIC para descarga con el nombre de la función o procedimiento con la extensión _bas cuyas líneas deben ir numeradas desde la 100 en adelante, con un salto de 10 en diez números de línea. No olvides incluir la autoría en el código. Guárdalo en la carpeta code.
 - Si no eres el autor, indícalo e indica dónde viste ese código.
 - Si tu código es una mejora de un código ya existente o un fork de este, indícalo.

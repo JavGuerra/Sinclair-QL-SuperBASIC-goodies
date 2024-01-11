@@ -1,7 +1,7 @@
-# X_Scale
-Autor: Dilwin Jones
+# FN X_Scale (y_scale, wide, high)
+**Autor**: Dilwin Jones
 
-Esta función toma en cuenta la relación de aspecto de 2:1 de las pantallas en los modos 4 y 8 del QL original para su aprovechamiento en la representación de gráficos que usan el sistema de coordenadas como PLOT, LINE, CIRCLE, etc.
+Toma en cuenta la relación de aspecto de 2:1 de la pantalla en los modos 4 y 8 del QL original para su aprovechamiento en la representación de gráficos que usan el sistema de coordenadas a tavés de comandos como PLOT, LINE, CIRCLE, etc.
 
 ## Código
 
@@ -11,6 +11,14 @@ Esta función toma en cuenta la relación de aspecto de 2:1 de las pantallas en 
 120   RETurn 0.75 * y_scale * wide / high
 130 END DEFine X_Scale
 ```
+
+## Parámetros
+
+**y_scale**: escala horizontal
+
+**wide**: anchura
+
+**high**: altura
 
 ## Ejemplo de uso
 
