@@ -16,6 +16,7 @@ Versión del comando AT que comprueba si la versión de la ROM es FB, y en ese c
 ## Parámetros
 
 **a**: posición de la línea
+
 **b**: posición de la columna
 
 ## Ejemplo de uso
