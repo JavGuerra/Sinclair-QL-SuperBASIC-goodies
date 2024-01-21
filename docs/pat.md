@@ -22,7 +22,7 @@ Versión del comando AT que comprueba si la versión de la ROM es FB, y en ese c
 ## Ejemplo de uso
 
 ```BASIC
-100 PAT (10,5) : PRINT "Hello!"
+100 PAT 10,5 : PRINT "Hello!"
 ```
 
 ## Más información
