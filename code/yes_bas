@@ -1,5 +1,5 @@
-100 DEFine FuNction Yes (prompt$)
-110   REMark by QJump
+100 REMark by QJump
+110 DEFine FuNction Yes (prompt$)
 120   PRINT #0, prompt$!'(Y or N)'
 130   REPeat ina
 140     answer$=INKEY$(-1)

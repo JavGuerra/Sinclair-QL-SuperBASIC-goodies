@@ -7,10 +7,9 @@ Versión del comando AT que comprueba si la versión de la ROM es FB, y en ese c
 
 ```BASIC
 100 DEFine PROCedure pat(a,b)
-110 REMark by PSION
-120   IF VER$="FB" THEN c=a:a=b:b=c
-130   AT b,a
-140 END DEFine 
+110   IF VER$="FB" THEN c=a:a=b:b=c
+120   AT b,a
+130 END DEFine 
 ```
 
 ## Parámetros

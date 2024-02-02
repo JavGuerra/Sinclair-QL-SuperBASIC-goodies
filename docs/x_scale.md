@@ -7,9 +7,8 @@ Toma en cuenta la relación de aspecto de 2:1 de la pantalla en los modos 4 y 8 
 
 ```BASIC
 100 DEFine FuNction X_Scale(y_scale,wide,high)
-110   REMark by Dilwyn Jones
-120   RETurn 0.75 * y_scale * wide / high
-130 END DEFine X_Scale
+110   RETurn 0.75 * y_scale * wide / high
+120 END DEFine X_Scale
 ```
 
 ## Parámetros

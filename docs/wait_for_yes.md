@@ -7,10 +7,9 @@ Espera a que se pulse Sí (Y) o cualquier otra tecla.
 
 ```BASIC
 100 DEFine PROCedure wait_for_yes
-110   REMark by QJump
-120   PRINT #0,'If you are ready to continue, press Y'
-130   REPeat iny: IF INKEY$(-1)=='Y': CLS #0: EXIT iny
-140 END DEFine wait_for_yes
+110   PRINT #0,'If you are ready to continue, press Y'
+120   REPeat iny: IF INKEY$(-1)=='Y': CLS #0: EXIT iny
+130 END DEFine wait_for_yes
 ```
 
 ## Ejemplo de uso

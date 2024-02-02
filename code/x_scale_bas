@@ -1,4 +1,4 @@
-100 DEFine FuNction X_Scale(y_scale,wide,high)
-110   REMark by Dilwyn Jones
+100 REMark by Dilwyn Jones
+110 DEFine FuNction X_Scale(y_scale,wide,high)
 120   RETurn 0.75 * y_scale * wide / high
 130 END DEFine X_Scale

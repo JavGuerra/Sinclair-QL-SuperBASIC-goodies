@@ -5,14 +5,13 @@
 
 ```BASIC
 100 DEFine FuNction Yes (prompt$)
-110   REMark by QJump
-120   PRINT #0, prompt$!'(Y or N)'
-130   REPeat ina
-140     answer$=INKEY$(-1)
-150     IF answer$=='Y': RETURN 1
-160     IF answer$=='N': RETURN 0
-170   END REPeat ina
-180 END DEFine Yes
+110   PRINT #0, prompt$!'(Y or N)'
+120   REPeat ina
+130     answer$=INKEY$(-1)
+140     IF answer$=='Y': RETURN 1
+150     IF answer$=='N': RETURN 0
+160   END REPeat ina
+170 END DEFine Yes
 ```
 
 ## Parámetros
