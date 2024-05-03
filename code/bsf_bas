@@ -1,22 +1,21 @@
 100 REMark by Badaman
 110 DEFine FuNction BSF
-120   REMark Basic Speed Factor
-130   LOCal r, d, c, n, i
-140   LET r = 84 : REMark Basic QL Factor
-150   LET d = DATE : c = 0 : n = 0
-160   REPeat i
-170     IF DATE <> d THEN 
-180       d = DATE
-190       n = n + 1
-200       IF n = 1 THEN 
-210         c = 0
-220       ELSE 
-230         EXIT i
-240       END IF 
-250     ELSE 
-260       c = c + 1
-270     END IF 
-280   END REPeat i
-290   REMark PRINT c : REMark count
-300   RETurn c / r
-310 END DEFine BSF
+120   LOCal r, d, c, n, i
+130   LET r = 84 : REMark Basic QL Factor
+140   LET d = DATE : c = 0 : n = 0
+150   REPeat i
+160     IF DATE <> d THEN 
+170       d = DATE
+180       n = n + 1
+190       IF n = 1 THEN 
+200         c = 0
+210       ELSE 
+220         EXIT i
+230       END IF 
+240     ELSE 
+250       c = c + 1
+260     END IF 
+270   END REPeat i
+280   REMark PRINT c : REMark count
+290   RETurn c / r
+300 END DEFine BSF
