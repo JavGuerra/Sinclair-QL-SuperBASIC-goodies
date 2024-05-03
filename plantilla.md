@@ -13,6 +13,10 @@ Descripción
 
 **parámetro**: descripción
 
+## Devuelve
+
+Descripción
+
 ## Ejemplo de uso
 
 ```BASIC
