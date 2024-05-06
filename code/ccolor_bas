@@ -1,0 +1,4 @@
+100 REMark By Andrew
+110 DEFine FuNction ccolor(col%,con%,stp%)
+120   RETurn 64*stp%+8*(col%^^con%)+col%
+130 END DEFine ccolor
